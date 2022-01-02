@@ -16,14 +16,5 @@
       <description>会在这两天完成并发布，暂时占个位置。</description>
     </item>
     
-    <item>
-      <title>Emoji Support</title>
-      <link>httpss://aragorn-yang.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>httpss://aragorn-yang.github.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>
