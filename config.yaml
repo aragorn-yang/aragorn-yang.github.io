@@ -1,0 +1,154 @@
+baseurl: httpss://aragorn-yang.github.io
+languageCode: zh-cn
+theme: hugo-theme-stack
+paginate: 5
+title: Aragorn Yang
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
+DefaultContentLanguage: zh-cn
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: true
+
+# taxonomies:
+# - tag: tags
+# - category: categories
+
+permalinks:
+  posts: /posts/:slug/
+  pages: /:slug/
+
+params:
+  mainSections:
+    - posts
+    #- pages
+  featuredImageField: image
+  rssFullContent: true
+  favicon:
+
+  footer:
+    since: 2022
+    customText:
+
+  dateFormat:
+    published: Jan 02, 2006
+    lastUpdated: Jan 02, 2006 15:04 MST
+
+  sidebar:
+    emoji: 🍥
+    subtitle: a husband, life-long learner, thinker, founder/co-founder, engineer and designer.
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.jpg
+
+  article:
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: true
+      default: Licensed under CC BY-NC-SA 4.0 # [Choose a License](https://creativecommons.org/choose/)
+      # BY-SA 4.0 其实也不错，额外允许了商业使用而已
+
+  comments:
+    enabled: true
+    provider: utterances
+
+    utterances:
+      repo: aragorn-yang/aragorn-yang.github.io
+      issueTerm: title
+      label: comment
+
+  widgets:
+    enabled:
+      - search
+      - archives
+      - tag-cloud
+
+    archives:
+      limit: 5
+
+    tagCloud:
+      limit: 10
+
+  opengraph:
+    twitter:
+      # Your Twitter username
+      site: AragornYang
+
+      # Available values: summary, summary_large_image
+      card: summary_large_image
+
+  defaultImage:
+    opengraph:
+      enabled: false
+      local: false
+      src:
+
+  colorScheme:
+    # Display toggle
+    toggle: true
+
+    # Available values: auto, light, dark
+    default: auto
+
+  imageProcessing:
+    cover:
+      enabled: true
+    content:
+      enabled: true
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: -100
+      params:
+        ### For demonstration purpose, the home link will be open in a new tab
+        newTab: true
+        icon: home
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/aragorn-yang
+      params:
+        icon: brand-github
+
+    - identifier: twitter
+      name: Twitter
+      url: https://twitter.com/AragornYang
+      params:
+        icon: brand-twitter
+
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+
+    - name: categories
+      weight: 200
+
+markup:
+  goldmark:
+    renderer:
+      ## Set to true if you have HTML content inside Markdown
+      unsafe: false
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+  highlight:
+    noClasses: false
+
+enableEmoji: true
