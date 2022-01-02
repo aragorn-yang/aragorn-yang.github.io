@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Aragorn Yang</title>
+    <link>httpss://aragorn-yang.github.io/posts/</link>
+    <description>Recent content in Posts on Aragorn Yang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Jan 2022 09:00:00 +0800</lastBuildDate><atom:link href="httpss://aragorn-yang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 年终总结</title>
+      <link>httpss://aragorn-yang.github.io/posts/2021-summary/</link>
+      <pubDate>Sun, 02 Jan 2022 09:00:00 +0800</pubDate>
+      
+      <guid>httpss://aragorn-yang.github.io/posts/2021-summary/</guid>
+      <description>会在这两天完成并发布，暂时占个位置。</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>httpss://aragorn-yang.github.io/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>httpss://aragorn-yang.github.io/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
